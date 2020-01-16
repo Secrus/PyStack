@@ -23,7 +23,7 @@ stack = Stack[int](*[12, 13, 14])
 ```
 
 ## API
-Stack class has very simple and (for those who know what stack data structure) intuitive API. It offers methods like:
+Stack class has very simple and (for those who know what stack data structure is) intuitive API. It offers methods like:
 
 ```python
 .push(data)
@@ -41,7 +41,7 @@ This methods removes data from top of stack and returns it. If your Stack is emp
 ### `.is_empty()`
 This method returns `bool` stating whether there is any data on stack (`False`) or stack is empty (`True`)
 
-### `get_state()`
+### `.get_state()`
 This method returns list of data on stack. Data is of a type of your Stack.
 
  
